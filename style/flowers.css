@@ -13,7 +13,7 @@
 .image-2{
     width: 367px;
     height: 201px;
-    background-color: #0808084b;
+    background-color: #08080880;
     border-radius: 8px;
     margin-bottom: 25px;
 
@@ -41,7 +41,7 @@
 .image-4{
     width: 367px;
     height: 201px;
-    background-color: #0808084b;
+    background-color: #08080880;
     border-radius: 8px;
 }
 .image-5{
@@ -55,7 +55,7 @@
 .image-6{
     width: 753px;
     height: 423px;
-    background-color: #0808084b;
+    background-color: #08080880;
     border-radius: 8px;
     
 }
@@ -73,8 +73,18 @@
 
 }
 
-
 /* deals main items style */
 .main-items {
     display: flex;
+}
+
+.image-7{
+  
+    height: 500px;
+    
+    background-repeat: no-repeat;
+    /* background-color: red; */
+    background-size: cover;
+    background-image: url(../assets/news-letter-bg.png);
+    
 }
