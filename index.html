@@ -7,9 +7,12 @@
     <title>Document</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="style/flowers.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 
-<body class="">
+<body class="noto-serif-font">
 
     <div class="main-div-for-all-width container mx-auto my-0 max-w-6xl">
         <header>
@@ -23,7 +26,7 @@
                         <li class="mr-12 text-lg font-bold">Home</li>
                         <li class="mr-12 text-lg primary-text-color-gray">Shop</li>
                         <li class="mr-12 text-lg primary-text-color-gray">About Us</li>
-                        <li class="mr-12 text-lg">Cart ($56)</li>
+                        <li class="mr-12 text-lg"> Cart ($56)</li>
                     </ul>
                 </div>
             </nav>
@@ -246,14 +249,34 @@
         </div>
     </section>
     </main>
-    <footer class="main-div-for-all-width container mx-auto my-0 max-w-6xl">
-        <div>
+    <footer class="main-div-for-all-width container mx-auto my-8 max-w-6xl">
+        <div class=" grid grid-cols-1 md:grid-cols-4">
+            <div class="mr-9 ">
             <img src="assets/logo.png" alt="">
-            <p class="rimary-text-color-gray">Indulge your senses with the beauty and fragrance of our fresh flower shop. </p>
+            <p class="primary-text-color-gray">Indulge your senses with the beauty and fragrance of our fresh flower shop. </p>
         </div>
-        <div></div>
-        <div></div>
-        <div></div>
+
+        <div class="space-y-5">
+            <a class=" block hover:underline primary-text-color-gray" href="">Home</a>
+            <a class=" block hover:underline primary-text-color-gray"href="">About Us</a>
+            <a class=" block hover:underline primary-text-color-gray"href="">Blog</a>
+            <a class=" block hover:underline primary-text-color-gray"href="">FAQ</a>
+            <a class=" block hover:underline primary-text-color-gray"href="">Contact Us</a>
+        </div>
+        <div class="space-y-5">
+            <a class="block hover:underline primary-text-color-gray">Features</a>
+            <a class="block hover:underline primary-text-color-gray">Pricing</a>
+            <a class="block hover:underline primary-text-color-gray">Privacy Policy</a>
+            <a class="block hover:underline primary-text-color-gray">Terms of Services</a>
+            <a class="block hover:underline primary-text-color-gray">Help Center</a>
+        </div>
+        <div class="flex items-center space-x-7 md:justify-end ">
+            <a href=""><img src="assets/icon-linkedin.png" alt="linkdin logo"></a>
+            <a href=""><img src="assets/icon-twitter.png" alt="twitter logo x"></a>
+            <a href=""><img src="assets/icon-facebook.png" alt="facebook logo"></a>
+            <a href=""><img src="assets/icon-youtube.png" alt="you tube logo"></a>
+        </div>
+        </div>
     </footer>
 </body>
 
