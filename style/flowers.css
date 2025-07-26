@@ -11,7 +11,7 @@
 
 
 
-
+/* primary color */
 
 .primary-text-color-gray{
     color: #7A7C80;
@@ -83,16 +83,15 @@
     justify-content: center;
     text-align: center ;
     align-items: center;
-    flex-direction: column;
+    /* flex-direction: column; */
     
 
 }
 
-/* deals main items style */
-.main-items {
-    display: flex;
-}
+    /* deals main items style */
 
+
+/* this is the colorfull branch img style */
 .image-7{
   
     height: 500px;
@@ -101,5 +100,16 @@
     /* background-color: red; */
     background-size: cover;
     background-image: url(../assets/news-letter-bg.png);
+    
+}
+
+/* responsive style */
+@media screen and (max-width:667px) {
+    .image-1, .image-2, .image-3, .image-4, .image-5, .image-6, .text-last-item, .text-item{
+        width: 361px;
+        height: 184px;
+        flex-direction: column;
+    }
+
     
 }
